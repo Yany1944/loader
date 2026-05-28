@@ -1,0 +1,323 @@
+{
+  "gun": {
+    "default": {
+      "meshId": "rbxassetid://79401392",
+      "meshTex": "rbxassetid://91723031",
+      "meshScale": [1.6, 1.6, 1.6],
+      "toolTex": "rbxassetid://197518111",
+      "soundId": "rbxassetid://10209803",
+      "gripPos": [0, -0.7, -0.3],
+      "gripFwd": [0, 1, 0],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 0, 1],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "ginger": {
+      "meshId": "rbxassetid://15374602183",
+      "meshTex": "rbxassetid://15409041564",
+      "meshScale": [0.085, 0.085, 0.085],
+      "toolTex": "rbxassetid://15762111158",
+      "soundId": "rbxassetid://15666290706",
+      "gripPos": [0.07, -0.34, 1.01],
+      "gripFwd": [0.025, 0.0025, -1],
+      "gripRight": [1, 0.05, 0.025],
+      "gripUp": [-0.052, 1, 0],
+      "extraMeshParts": [
+        {
+          "name": "Scope",
+          "meshId": "rbxassetid://15374679651",
+          "meshTex": "",
+          "scale": [0.0288, 0.0288, 0.0288],
+          "offset": [0, 0.483162, 0.207214],
+          "rotation": [0, 0, 0],
+          "material": "Glass",
+          "color": [0.505882, 0.709804, 0.8],
+          "reflectance": 1,
+          "transparency": 0.35
+        }
+      ],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "beamTexture": "rbxassetid://15374653796",
+      "beamTextureMode": "Wrap",
+      "beamTextureLength": 1.5,
+      "beamWidth0": 1,
+      "beamWidth1": 1,
+      "beamBrightness": 1.555,
+      "beamLightEmission": 1,
+      "beamFaceCamera": true,
+      "beamTextureSpeed": 0,
+      "holdAnim": {
+        "id": "rbxassetid://15666234025",
+        "timePosition": 12.333192825317383,
+        "priority": "Action2",
+        "speed": 1
+      },
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [45, 0, 0]
+    },
+    "harv": {
+      "meshId": "rbxassetid://7775027413",
+      "meshTex": "rbxassetid://7775245551",
+      "meshScale": [0.05, 0.05, 0.05],
+      "toolTex": "",
+      "soundId": "rbxassetid://7808472682",
+      "gripPos": [0.03, -0.3, 0.62],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "beamColor": [[0, 0, 255, 0], [1, 0, 255, 0]],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [60, 0, 90]
+    },
+    "ice": {
+      "meshId": "rbxassetid://11868991644",
+      "meshTex": "rbxassetid://11869075814",
+      "meshScale": [0.06, 0.05, 0.05],
+      "toolTex": "",
+      "soundId": "rbxassetid://7808472682",
+      "gripPos": [0.03, -0.5, 0.31],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [60, 0, -90]
+    },
+    "blossom": {
+      "meshId": "rbxassetid://12322809632",
+      "meshTex": "rbxassetid://12322809917",
+      "meshScale": [0.045, 0.045, 0.045],
+      "toolTex": "",
+      "soundId": "rbxassetid://10209803",
+      "gripPos": [0.03, -0.3, 0.81],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [50, 0, 0]
+    },
+    "shotgun": {
+      "meshId": "rbxassetid://94219391",
+      "meshTex": "rbxassetid://94219470",
+      "meshScale": [0.75, 0.75, 0.75],
+      "toolTex": "",
+      "soundId": "rbxassetid://94191736",
+      "gripPos": [0.13, 0.007, 0.52],
+      "gripFwd": [-0.379, 0.022, -0.925],
+      "gripRight": [0.925, 0.008, -0.379],
+      "gripUp": [0.0004, 0.9997, 0.023],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "holsteredOffset": [-1.25, -0.6, -1],
+      "holsteredRotation": [110, -50, -90]
+    },
+    "violite": {
+      "meshId": "rbxassetid://280037291",
+      "meshTex": "rbxassetid://280037426",
+      "meshScale": [0.85, 0.85, 0.85],
+      "toolTex": "",
+      "soundId": "rbxassetid://282907010",
+      "gripPos": [0.1, -0.4, 1.25],
+      "gripFwd": [-0.071533, -0.0310258, -0.996955],
+      "gripRight": [0.9997291, 0, 0],
+      "gripUp": [0.0170662, 0.999331, -0.0323242],
+      "beamColor": [[0, 255, 255, 255], [1, 255, 255, 255]],
+      "holsteredOffset": [0, 0.2, 0],
+      "holsteredRotation": [50, 0, 180]
+    }
+  },
+  "gunOrder": ["default", "ginger", "harv", "ice", "blossom", "shotgun", "violite"],
+  "knife": {
+    "defaultknife": {
+      "meshId": "rbxassetid://121944778",
+      "meshTex": "rbxassetid://121944805",
+      "meshScale": [1, 1, 1],
+      "toolTex": "rbxassetid://584555920",
+      "gripPos": [0, -1, -0.1],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "corrupt": {
+      "meshId": "rbxassetid://121944778",
+      "meshTex": "rbxassetid://162016526",
+      "meshScale": [1, 1, 1],
+      "toolTex": "rbxassetid://601019226",
+      "gripPos": [0, -1.09, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "candycane": {
+      "meshId": "rbxassetid://19040337",
+      "meshTex": "rbxassetid://19040326",
+      "meshScale": [1, 1.2, 1.2],
+      "toolTex": "rbxassetid://8441578414",
+      "gripPos": [0, 0.864, 0.0641],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "icecrusher": {
+      "meshId": "rbxassetid://11848711686",
+      "meshTex": "rbxassetid://11850483027",
+      "meshScale": [0.075, 0.075, 0.075],
+      "toolTex": "rbxassetid://11999012748",
+      "gripPos": [0, -1.09, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "sakura": {
+      "meshId": "rbxassetid://12307707430",
+      "meshTex": "rbxassetid://12307707797",
+      "meshScale": [0.08, 0.08, 0.075],
+      "toolTex": "rbxassetid://12382320383",
+      "gripPos": [0, -1.38, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "phantom": {
+      "meshId": "rbxassetid://11158775938",
+      "meshTex": "rbxassetid://11158776140",
+      "meshScale": [0.07, 0.07, 0.075],
+      "toolTex": "rbxassetid://11300743271",
+      "gripPos": [0, -1.41, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "bat": {
+      "meshId": "rbxassetid://11182796403",
+      "meshTex": "rbxassetid://11192090515",
+      "meshScale": [0.08, 0.075, 0.08],
+      "toolTex": "rbxassetid://11300746586",
+      "gripPos": [0, -1.27, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "swirlyaxe": {
+      "meshId": "rbxassetid://8293463844",
+      "meshTex": "rbxassetid://8293464070",
+      "meshScale": [0.065, 0.055, 0.06],
+      "toolTex": "rbxassetid://9819801549",
+      "gripPos": [0, -1.09, 0.0265],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "sunsword": {
+      "meshId": "rbxassetid://54383785",
+      "meshTex": "rbxassetid://54383840",
+      "meshScale": [1, 1, 1],
+      "toolTex": "rbxassetid://54383861",
+      "gripPos": [0, 0, -2.5],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "customAnim": {
+        "slash": "rbxassetid://2320208998",
+        "stab": "rbxassetid://2850678159",
+        "speed": 1
+      },
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 90]
+    },
+    "8bit": {
+      "meshId": "rbxassetid://361629844",
+      "meshTex": "rbxassetid://380257575",
+      "meshScale": [4.5, 4.5, 4.5],
+      "toolTex": "rbxassetid://380257985",
+      "gripPos": [0, 0.05, 1.5],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "celestial": {
+      "meshId": "rbxassetid://12221720",
+      "meshTex": "rbxasset://textures/SwordTexture.png",
+      "meshScale": [1, 1, 1],
+      "toolTex": "rbxassetid://16620737",
+      "gripPos": [0, 0, -1.5],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "customAnim": {
+        "slash": "rbxassetid://3027801142",
+        "stab": "rbxassetid://2850678159",
+        "speed": 2
+      },
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 90]
+    },
+    "neonkatana": {
+      "meshId": "rbxassetid://535069545",
+      "meshTex": "rbxassetid://535069453",
+      "meshScale": [0.85, 0.85, 0.85],
+      "toolTex": "rbxassetid://535069363",
+      "gripPos": [0, -1.75, 0.1],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "customAnim": {
+        "slash": "rbxassetid://2320208998",
+        "stab": "rbxassetid://2850678159",
+        "extra": "rbxassetid://2320213684",
+        "speed": 1
+      },
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "heartwand": {
+      "meshId": "rbxassetid://77738838473091",
+      "meshTex": "rbxassetid://76246633927299",
+      "meshScale": [0.085, 0.085, 0.085],
+      "toolTex": "rbxthumb://type=Asset&w=150&h=150&id=118334707962654",
+      "gripPos": [0, -0.84, 0],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    },
+    "xenoknife": {
+      "meshId": "rbxassetid://136619680236977",
+      "meshTex": "rbxassetid://113651973865393",
+      "meshScale": [0.09, 0.09, 0.09],
+      "toolTex": "rbxthumb://type=Asset&w=150&h=150&id=115021756767182",
+      "gripPos": [0, -1.1, 0],
+      "gripFwd": [0, 0, -1],
+      "gripRight": [1, 0, 0],
+      "gripUp": [0, 1, 0],
+      "holsteredOffset": [0, 0, 0],
+      "holsteredRotation": [0, 0, 0]
+    }
+  },
+  "knifeOrder": [
+    "defaultknife", "corrupt", "candycane", "icecrusher", "sakura",
+    "phantom", "bat", "swirlyaxe", "sunsword", "8bit",
+    "celestial", "neonkatana", "heartwand", "xenoknife"
+  ]
+}

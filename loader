@@ -11,7 +11,7 @@ local CoreGui      = game:GetService("CoreGui")
 local RunService   = game:GetService("RunService")
 local LocalPlayer  = Players.LocalPlayer
 
-local VALID_PLACES = { [142823291] = true, [335132309] = true }
+local VALID_PLACES = true --{ [142823291] = true, [335132309] = true }
 local MIN_SRC_LEN  = 128
 
 local SCRIPT_URLS = {

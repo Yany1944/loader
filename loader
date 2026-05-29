@@ -21,9 +21,9 @@ local SCRIPT_URLS = {
 
 -- ── Security ──────────────────────────────────────────────────────
 local function securityCheck()
-    if RunService:IsStudio() then return false, "Studio не поддерживается" end
-    if not VALID_PLACES[game.PlaceId] then return false, "PlaceId не поддерживается" end
-    if not LocalPlayer then return false, "LocalPlayer недоступен" end
+    --if RunService:IsStudio() then return false, "Studio не поддерживается" end
+    --if not VALID_PLACES[game.PlaceId] then return false, "PlaceId не поддерживается" end
+    --if not LocalPlayer then return false, "LocalPlayer недоступен" end
     return true
 end
 

@@ -11,7 +11,7 @@ local CoreGui      = game:GetService("CoreGui")
 local RunService   = game:GetService("RunService")
 local LocalPlayer  = Players.LocalPlayer
 
-local VALID_PLACES = { [142823291] = true, [335132309] = true }
+--local VALID_PLACES = { [142823291] = true, [335132309] = true }
 local MIN_SRC_LEN  = 128
 
 local SCRIPT_URLS = {
@@ -22,7 +22,7 @@ local SCRIPT_URLS = {
 -- ── Security ──────────────────────────────────────────────────────
 local function securityCheck()
     if RunService:IsStudio() then return false, "Studio не поддерживается" end
-    if not VALID_PLACES[game.PlaceId] then return false, "PlaceId не поддерживается" end
+    --if not VALID_PLACES[game.PlaceId] then return false, "PlaceId не поддерживается" end
     if not LocalPlayer then return false, "LocalPlayer недоступен" end
     return true
 end
